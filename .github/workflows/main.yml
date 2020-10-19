@@ -22,7 +22,7 @@ jobs:
           args: template pull https://github.com/utsavanand2/openfaas-hugo-template
       - 
         name: Add theme submodule
-        run: git submodule add https://github.com/budparr/gohugo-theme-ananke.git hello-multi-arch/themes/ananke
+        run: git submodule add -f https://github.com/budparr/gohugo-theme-ananke.git hello-multi-arch/themes/ananke
       - 
         name: Run shrinkwrap build
         uses: docker://openfaas/faas-cli:latest-root
