@@ -1,0 +1,9 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: http://165.232.98.190:8080
+functions:
+  hello-multi-arch:
+    lang: hugo
+    handler: ./hello-multi-arch
+    image: utsavanand2/hello-multi-arch:latest

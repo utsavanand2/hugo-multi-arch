@@ -1,0 +1,4 @@
+baseURL = "http://165.232.98.190:8080/function/hello-multi-arch/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "ananke"
